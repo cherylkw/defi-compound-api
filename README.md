@@ -9,6 +9,7 @@ interface with Compound by building API that runs on Node.js server. This will b
 2. mkdir <directory name>
 3. Inside the directory, intinal project : npm init -y
 4. Install Koa framework (lightweight version of express): npm install koa @koa/router
+5. Install web3 : npm install web3
  
 # Connect to Ethereum blockchain main net:
 
@@ -45,3 +46,14 @@ Use infura (Eth nodes as a service) service which provide some nodes connect to 
     - Return the amont of cToken that we want to redeem e.g. redeem 10 cToken doesn't mean you get back 10 token, it depends on the exchange rate between token and cToken, also the interest you've earned.
 
 # Deploy to Heroku
+1. Create a Heroku account
+2. Install Heroku-cli
+3. Install Git
+4. Create repository in Git
+    - git init
+    - git add -A
+    - git commit -m "init"
+5. In command line : Heroku login
+6. After login , create Heroku project : Heroku create
+7. Since we do not upload the .env file , set the env variable in Heroku : heroku config:set INFURA_URL=<the link> , also the PRIVATE_KEY=<your private key>
+8. Upload the project to Heroku : git push heroku master

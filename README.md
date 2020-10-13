@@ -60,4 +60,4 @@ Use infura (Eth nodes as a service) service which provide some nodes connect to 
 
 # Endpoint testing:
 Try cDai/Dai :
-curl https://warm-caverns-58175.herokuapp.com/tokenBalance/cDai/0x0d0289e9f3eae696fa38e86fc4456228dc1792a7
+curl https://stark-scrubland-88794.herokuapp.com/tokenBalance/cDai/0xc2b58e6b037b19cfba17b1290b1fbbebc00bd967

@@ -57,3 +57,7 @@ Use infura (Eth nodes as a service) service which provide some nodes connect to 
 6. After login , create Heroku project : Heroku create
 7. Since we do not upload the .env file , set the env variable in Heroku : heroku config:set INFURA_URL=<the link> , also the PRIVATE_KEY=<your private key>
 8. Upload the project to Heroku : git push heroku master
+
+# Endpoint testing:
+Try cDai/Dai :
+curl https://warm-caverns-58175.herokuapp.com/tokenBalance/cDai/0x0d0289e9f3eae696fa38e86fc4456228dc1792a7

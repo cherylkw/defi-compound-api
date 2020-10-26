@@ -11,7 +11,8 @@ Interfacing with Compound by building API that runs on Node.js server. Client si
 1. Install Node.js
 2. mkdir <directory name>
 3. Inside the directory, intinal project : npm init -y
-4. Install Koa framework (lightweight version of express): npm install koa @koa/router
+4. Create HTTP server for API, can create directly with node.js but easier to use framework like KOA
+5. Install Koa framework (lightweight version of express): npm install koa @koa/router
 5. Install web3 : npm install web3
  
 ## Connect to Ethereum blockchain main net:
